@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Criador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criar um Post</h1>
+    <form id="postForm">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <textarea id="conteudo" placeholder="Conteúdo" required></textarea>
+        <button type="submit">Postar</button>
+    </form>
+    <div class="post-container">
+        <h2 id="renderizador-titulo"></h2>
+        <p id="renderizador-conteudo"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

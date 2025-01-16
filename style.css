@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+input, textarea, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+.post-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  text-align: center;
+}
